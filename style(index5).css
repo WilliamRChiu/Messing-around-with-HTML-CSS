@@ -1,0 +1,75 @@
+h1{
+    border-style:solid;
+    border-width: 3px;
+    border-color: hsl(273, 100%, 54%);
+    border-radius: 20px;
+}
+/*this whole function can be condensed into the following (refer to h2)*/
+
+h2{
+    border: 20px solid rgb(71, 126, 171);
+    border-radius: 25px;
+}
+
+#p1{
+    border-bottom: 3px solid rgb(69, 152, 127);
+    border-top: 3px solid yellow;
+    border-left: 3px dotted salmon;
+    border-right: 3px dotted orangered
+}
+#logang{
+    text-shadow: 3px 3px 5px hsl(156, 49%, 46%), -3px -3px 5px hsl(62, 68%, 57%); 
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px;
+}
+body{
+    margin: 2px;
+    border: 3px solid;
+    display: flow-root;
+}
+.box{
+    border:5px solid;
+    font-size:5em;
+    width: 250px;
+    height:250px;
+}
+#box1{
+    background-color: red;
+    margin:auto;
+}
+#box2{
+    background-color: aqua;
+    margin-left: auto;
+
+}
+#img1{
+    float: right;
+    margin-right: 10px;
+}
+#img2{
+    float: left;
+    margin: 10px;
+}
+#overflowdiv1{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+#display1{
+    background-color: pink;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    /*This function makes the object invisible; it takes up the space but is identical in colour to background visibility: hidden;*/
+
+}
+#display2{
+    background-color: cyan;
+    width:100px;
+    height:100px;
+    display:block;
+}

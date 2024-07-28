@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+/*This ensures that all elements are sized to fit in a invisible border box (even though widths + paddings may not be equal to 100%*/
+
+header{
+    background-color: hsla(210, 69%, 79%, 0.895);
+    text-align: center;
+    padding: 25px;
+}
+main{
+    background-color: hsla(210, 69%, 79%, 0.895);
+
+}
+.navbar{
+    background-color: hsla(36, 100%, 90%, 0.856);
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 5px;
+    margin:0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:hsl(0, 0%, 22%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(254, 162, 24);
+}
+
+.navbar li{
+    float: right;
+    width: 25%;
+}
+body{
+    margin: 0px;
+}
+aside{
+    width: 20%;
+    float:left;
+    padding:10px;
+}
+section{
+    width:40%;
+    float: left;
+    padding:10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding:10px;
+}
+
+
+
+.gallery{
+    display: inline-block;
+    clear:both;
+    float: none;
+    border: 1px solid hsla(0, 0%, 50%, 0.61);
+    margin: 5px;
+    vertical-align: middle; /* Ensures the galleries align to the top */
+    width:auto;
+}
+.gallery img {
+    float:none;
+    display: block; /* Removes the space below the images */
+    clear:both;
+    height: 150px; /* Set a fixed height for all images */
+    width: auto; /* Maintain aspect ratio */
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery img{
+    width:100%;
+    height:auto;
+}
+.gallery:hover{
+    border: 1px solid rgb(128, 128, 128);
+}
+footer{
+    /*need to clear the float because it still thinks its attached to the main*/
+    display: block;
+    clear: both;
+    background-color: hsla(210, 69%, 79%, 0.895);
+    text-align: center;
+    padding: 25px;
+}
+/*for mobile devices, this is what you do to get site to properly format*/
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%;
+    }
+}

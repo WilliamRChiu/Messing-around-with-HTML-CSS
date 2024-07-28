@@ -1,0 +1,22 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container{
+    border: 2px solid;
+}
+#container p{/*descendant combinator*/
+    background-color: yellow;
+}
+#container > p{/*child combinator*/
+    background-color: aquamarine;
+}
+#container ~ p{/*siblings combinator*/
+    background-color: blue;
+}
+#container + p{ /*adjacent siblings*/
+    background-color: blueviolet;
+}

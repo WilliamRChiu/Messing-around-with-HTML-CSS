@@ -1,0 +1,51 @@
+*{/*this applies box sizing to all elements*/
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid;
+    padding:25px;
+    height:auto;
+    width: 50%;
+    float: right;
+    text-align:center;
+    background-color: white;
+
+}
+.container{
+    background-color: gray;
+    height: 100vh; /*this makes the container take up 100% of the viewing height*/
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    top: 200px;/*pushes element down 100 pixels relative to where it was*/
+    left:200px;/*same concept but to the left*/
+
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(235, 48, 219);
+    position: fixed;
+    right:0px;
+    bottom:0px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(39, 212, 132);
+    position: absolute;/*box3 is always going to be positioned within the frame of box1*/
+
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 212, 70);
+    position: sticky;
+    top:0px;
+
+
+}

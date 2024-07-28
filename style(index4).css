@@ -1,0 +1,23 @@
+body{
+    background-color: slategray;
+}
+
+#P1a{
+    background-color: tomato;
+}
+#P2b{
+    color: rgb(102, 222, 255);
+}
+#P3c{
+    color: #59ff5f;
+}
+#P4d{
+    color: rgb(155, 68, 97);
+}
+h1{
+    font-family: verdana, arial, sans-serif;
+    font-size: 1em;
+}
+#p2a{
+    font-family: "roboto";
+}
